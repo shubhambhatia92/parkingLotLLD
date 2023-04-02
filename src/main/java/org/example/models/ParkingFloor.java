@@ -5,8 +5,7 @@ import java.util.List;
 public class ParkingFloor extends BaseModel {
     private int number;
     List<ParkingSpot> parkingSpots;
-    private ParkingSpotStatus parkingSpotStatus;
-    private ParkingFloor parkingFloor;
+
 
     public int getNumber() {
         return number;
@@ -24,19 +23,4 @@ public class ParkingFloor extends BaseModel {
         this.parkingSpots = parkingSpots;
     }
 
-    public ParkingSpotStatus getParkingSpotStatus() {
-        return parkingSpotStatus;
-    }
-
-    public void setParkingSpotStatus(ParkingSpotStatus parkingSpotStatus) {
-        this.parkingSpotStatus = parkingSpotStatus;
-    }
-
-    public ParkingFloor getParkingFloor() {
-        return parkingFloor;
-    }
-
-    public void setParkingFloor(ParkingFloor parkingFloor) {
-        this.parkingFloor = parkingFloor;
-    }
 }

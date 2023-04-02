@@ -6,7 +6,7 @@ public class ParkingLot extends BaseModel{
 
     private List<ParkingFloor> parkingFloors;
     private List<Gate> gates;
-    private ParkingSpotStatus parkingSpotStatus;
+    private ParkingLotStatus parkingLotStatus;
     private String name;
     private String address;
 
@@ -26,12 +26,12 @@ public class ParkingLot extends BaseModel{
         this.gates = gates;
     }
 
-    public ParkingSpotStatus getParkingSpotStatus() {
-        return parkingSpotStatus;
+    public ParkingLotStatus getParkingLotStatus() {
+        return parkingLotStatus;
     }
 
-    public void setParkingSpotStatus(ParkingSpotStatus parkingSpotStatus) {
-        this.parkingSpotStatus = parkingSpotStatus;
+    public void setParkingLotStatus(ParkingLotStatus parkingLotStatus) {
+        this.parkingLotStatus = parkingLotStatus;
     }
 
     public String getName() {
